@@ -1,0 +1,80 @@
+
+body{
+    font-family: 'Poppins',sans-serif ;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    
+}
+
+.chat-section{
+
+    width: 100vw;
+    max-width: 28%;
+    background: linear-gradient(to bottom, hsl(293, 100%, 63%),hsl(264, 100%, 61%)80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 16rem 10rem;
+    height: 42rem;
+    left: 0;
+    
+}
+
+.info-section{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    color: hsl(271, 36%, 24%);
+    text-align: start;
+    margin-left: 22%;
+    margin-top: 18%;
+    transform: translateY(-14%);
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+     
+    
+}
+
+.container .chat-section .pohne{
+    display: flex;
+    align-items: center; 
+    margin-left: 35rem;
+    margin-bottom:-35% ;
+}
+.container .chat-section .pohne .pohne-chat{
+    width: 16rem; 
+    height: 33rem; 
+    border: 10px solid hsl(0, 0%, 100%);
+    border-radius: 20px; 
+    position: relative; 
+    margin-right: 70px; 
+    background-color:hsl(270, 20%, 96%);
+    align-items: center;
+    
+
+}
+.container .chat-section .pohne .pohne-chat .tob{
+    width: 55%;
+    height: 22px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0px 0px 10px 10px;
+}
+.container .chat-section .pohne .pohne-chat .caht{
+    height: 75px; 
+    background: linear-gradient(to right,hsl(264, 100%, 61%) ,hsl(293, 100%, 63%) );
+    border-radius: 20px 20px 5px 5px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
